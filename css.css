@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');  
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css');  
+@import url('https://unicons.iconscout.com/release/v2.1.9/css/unicons.css');  
+
+body{  
+      font-family: 'Poppins', sans-serif;  
+      font-weight: 300;  
+      font-size: 15px;  
+      line-height: 1.7;  
+      color: #c4c3ca;  
+        
+      overflow-x: hidden;  
+}  
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+ 
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color:#2a2b38;
+}
+
+li,a,button{
+    font-size: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffeba7;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    padding-bottom: 5px;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    padding-bottom: 35px;
+}
+.nav__links {
+    list-style: none;
+    
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+ 
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li, a:hover{
+    color: white;
+}
+
+.topic{
+    text-align: left;
+    text-decoration: none;
+    padding-top: 100px;
+}
+
+.section{
+    text-align: left;
+    text-decoration: none;
+    padding-left: 35px;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+span::before {
+    content: "Create Property Notice";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "";
+    }
+
+    50% {
+        content: "Generate Property Notice";
+    }
+
+    75% {
+        content: "Create Property Notice";
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 10px #c4c3ca;
+    
+  }
+  
+  .flex-container .box {
+    
+    width: 31%;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 31%;
+    padding: 5px 25px;
+  }
+  
+  .row {margin: 0 -10px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    
+    padding: 16px;
+    text-align: center;
+    background-color: #2a2b38;
+    color: white;
+    padding-bottom: 50px;
+  }
+
+ .footer {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   font-family:  sans-serif ;
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 60px;
+  text-align:left;
+  text-decoration: none;
+  color: #ffeba7;
+}
+footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  
+
+  footer .bottom{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+    
+  }
+  
