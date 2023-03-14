@@ -1,1 +1,1 @@
-"# clone-of-noticify.io" 
+"clone-of-noticify.io" 
